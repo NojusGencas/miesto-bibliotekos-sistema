@@ -16,11 +16,8 @@ Reikia **Node.js 20+** ir **Docker Desktop**.
    npm run db:up
    ```
 
-3. Sukurkite `.env` failą iš pavyzdžio:
+3. Sukurkite `.env` failą iš pavyzdžio env.example:
 
-   ```powershell
-   Copy-Item .env.example .env
-   ```
 
    `.env` faile pakeiskite `JWT_SECRET` į atsitiktinį, bent 32 simbolių raktą, o `ADMIN_PASSWORD` – į savo administratoriaus slaptažodį. Palikite vietinės MongoDB `MONGODB_URI` ir `MONGODB_DB_NAME` reikšmes.
 
